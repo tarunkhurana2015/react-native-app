@@ -224,8 +224,7 @@ export default function App() {
 }
 ```
 
-![image](https://github.com/user-attachments/assets/83005f5f-4dc8-4ad4-8cb1-4b8c769c5465)
-
+![alt text](image.png)
 
 4. Icons
 
@@ -252,4 +251,23 @@ export default function App() {
     </View>
   );
 }
+```
+
+5. Platform specific styling
+
+```js
+const styles = StyleSheet.create({
+  text: {
+    ...Platform.select({
+      ios: {
+        fontSize: 20,
+        fontFamily: "Avenir",
+      },
+      android: {
+        fontSize: 30,
+        fontFamily: "Roboto",
+      },
+    }),
+  },
+});
 ```
