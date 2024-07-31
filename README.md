@@ -224,7 +224,8 @@ export default function App() {
 }
 ```
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/83005f5f-4dc8-4ad4-8cb1-4b8c769c5465)
+
 
 4. Icons
 
