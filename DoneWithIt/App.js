@@ -10,6 +10,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import Card from "./app/components/Card";
 import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
+import MessagesScreens from "./app/screens/MessagesScreens";
 
 // export default function App() {
 //   return (
@@ -34,8 +35,12 @@ import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
 //   return <WelcomeScreen></WelcomeScreen>;
 // }
 
+// export default function App() {
+//   return <ViewImageScreen></ViewImageScreen>;
+// }
+
 export default function App() {
-  return <ViewImageScreen></ViewImageScreen>;
+  return <MessagesScreens></MessagesScreens>;
 }
 
 // export default function App() {

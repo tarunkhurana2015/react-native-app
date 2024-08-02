@@ -4,4 +4,5 @@ export default {
   black: "black",
   white: "white",
   medium: "gray",
+  light: "lightgrey",
 };
